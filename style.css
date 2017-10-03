@@ -1,0 +1,180 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* UNIVERSAL STYLES */
+
+.featured {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.featured h1,
+.featured h2,
+.featured h3 {
+  color: white;
+}
+
+section {
+  padding: 10vh 5%;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(60,60,65);
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  color: teal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 7vw;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.col,
+.col-4 {
+  padding: 3%;
+}
+
+ul {
+  line-height: 4em;
+}
+
+.box-img,
+.box-img-footer {
+  background-image: url('travelgirl.jpg');
+  background-size: cover;
+  background-position: 0px -90px;
+  min-height: 45vh;
+  /*backgroung-position-y: -60px;*/
+}
+
+.box-img-footer {
+  background-position: center;
+}
+
+.fa {
+  font-size: 2.5em;
+  margin: 0 0 0.5em;
+  color: #1abc9c;
+}
+
+.button {
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 0.5em 3em;
+  margin: 1em auto;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+.message-height {
+  height: 20vh;
+}
+
+.form {
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
+.send-button {
+  font-style: italic;
+  margin: 10px auto;
+  padding: 20px 25px;
+  text-transform: uppercase;
+}
+
+/* BACKGROUND IMAGES */
+
+#intro-banner {
+  background-image: url('travelgirl.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+/* Forms */
+input,
+textarea {
+  border-style: solid;
+  border: 1px solid grey;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  font-family: 'Fjalla One';
+  font size: 1em;
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  vertical-align: top;
+
+}
+
+textarea {
+  min-height: 80%;
+}
+
+input[type="submit"] {
+  width: auto;
+  display: block;
+  background-color: #1abc9c;
+}
+
+form [class*=col-]  {
+  padding: 1%;
+}
+
+/* FOOTER */
+
+.footer-line {
+  border-bottom: 1px solid grey;
+}
+
+.built {
+  font-size: small;
+  font-family: sans-serif;
+  padding: 20px 0;
+}
+
+.footer-space {
+  margin-right: 0.5em;
+}
+
+.footer-facebook {
+  margin-right: 0.7em;
+}
